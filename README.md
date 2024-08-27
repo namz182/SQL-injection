@@ -14,6 +14,6 @@ This project demonstrates SQL injection vulnerabilities using a Python-based app
 1. clone the repository
 2. install the requirements `pip install -r requirements.txt`
 3. Run the Python script:
-`python app.py`
+`python SQLvuln.py`
 4. Create an account before performing any SQL injection.
 5. Once the account is created, you can explore how SQL injection can be performed and how it affects the application.
