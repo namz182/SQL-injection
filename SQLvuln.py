@@ -10,7 +10,7 @@ cursor = connection.cursor()
 def create_account():
     table = '''CREATE TABLE IF NOT EXISTS users(
                 username varchar(255),
-           P     password varchar(255)
+                password varchar(255)
     )''' 
     cursor.execute(table)
     username = create_user_name.get()
